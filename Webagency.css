@@ -1,0 +1,1403 @@
+html, body 
+{	
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+
+body, textarea, input  
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.blocpage
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+#section1 h2, .entete_section1, #section2 h2, .entete_section2
+{
+	text-align: center;	
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.entete_section1, .entete_section2, .inline p
+{
+	color: grey;
+}
+
+
+h1 /*logo*/
+{
+	margin-top: 0px;
+}
+
+
+h2 /*Nos services - Nos projets*/
+{
+	font-size: 45px;
+	font-weight: bold;
+	margin: 40px 10px 10px 10px;
+}
+
+
+h3
+{
+	font-size: 22px;
+	color: black;
+	margin-bottom: 0px;
+}
+
+
+p
+{
+	font-size: 14px;
+}
+
+
+#ligne_cercle_ligne
+{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+
+.cercle, .icones-section1
+{
+	color: #5fadd3;
+}
+
+
+.ligne /*lignes autour de l'icône bleu, sous les h2*/
+{
+	border-bottom: 1px solid #BDBDBD;
+	width: 60px;
+	margin: 0px 0px 11px 0px;
+}
+
+
+header
+{
+	width: 100%;
+}
+
+
+.logo
+{
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 8%;
+	z-index: 2;
+	position: fixed;
+}
+
+
+nav ul
+{
+	position: absolute;
+	top: 0%;
+	right: 0px;
+	margin-top: 0px;
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	width: 100%;
+}
+
+
+nav a
+{
+	color: grey;
+	text-decoration: none;
+}
+
+
+nav a:hover, nav a:focus
+{
+	color: black;
+	border-top: 3px solid #5fadd3; 
+	padding-top: 33px;
+}
+
+
+nav li
+{
+	margin-right: 25px;
+	
+	padding-top: 36px;
+	padding-bottom: 36px;
+	font-size: 15px;
+}
+
+
+.menu-hamburger
+{
+	display: none;
+}
+
+
+.menu-active
+{
+	border-top: 3px solid #5fadd3; 
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+
+
+.image-entete 
+{
+	position: relative;
+	top: 0px;
+	overflow: hidden;
+}
+
+
+.image-entete img
+{
+	width: 100%;
+}
+
+
+.TEXTESLIDER
+{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50px);
+}
+
+
+.texte-titres /* WEB AGENCY : L'AGENCE DE TOUS VOS PROJETS*/
+{
+	position: relative;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+.WEBAGENCY 
+{
+	color: #5fadd3;
+}
+
+
+.AGENCE_DE_TOUS
+{
+	color: white;
+}
+
+
+.VOS_PROJETS
+{
+	position: relative;
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+
+.Vous_avez_un_projet
+{
+	position: relative;
+	color: white;	
+}
+
+
+
+.Plus_dinfos /*bouton slider*/
+{
+	position: relative;
+	top: 10px;
+	border-radius: 3px;
+	background-color: #5fadd3;
+	text-align: center;
+	box-shadow: inset 0px -3px 0px #0c90ce;
+	cursor: pointer;
+	padding: 13px;
+	width: 20%;
+}	
+
+
+.Plus_dinfos a
+{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	font-weight: bold;
+}
+
+
+.border_noir_bottom_slider
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background-color: rgba(40, 40, 40, 0.5);
+}
+
+
+.border_bleu_slider
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 15%;
+	height: 5px;
+	background-color: #5fadd3;
+}
+
+
+.fleche 
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+
+.fleche-gauche 
+{
+	left: -25px;
+	background-color: rgba(0, 0, 0, 0.28);
+	cursor: pointer;
+}
+
+
+.fleche-droite 
+{
+	right: -25px;
+	background-color: rgba(0, 0, 0, 0.28);
+	cursor: pointer;
+}
+
+
+.icone-fleche 
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.icone-fleche-gauche
+{
+	left: 50%;
+}
+
+
+.icone-fleche-droite
+{
+	right: 50%;
+}
+
+
+/*------------section 1------------*/
+
+
+#section1
+{
+	width: 100%;
+}
+
+
+.section1_ordi_et_paragraphe
+{
+	width: 100%; 
+}
+
+
+#image_ordi
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 49%;	
+	text-align: center;
+}
+
+
+#section1_logos_et_textes
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+}
+
+
+.texte
+{
+	width: 100%;
+}
+
+
+.description-services
+{
+	width: 70%;
+	margin-left: 25px; 
+}
+
+
+.inline 
+{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+
+
+.cercle
+{
+	font-size: 16px;
+	border: 4px solid white;
+	border-radius: 100%;
+}
+
+
+.contour-gris
+{
+	font-size: 16px;
+	border: 4px solid #F5F5F5;
+	border-radius: 100%;
+}
+
+
+.icones-section1
+{
+	position: relative;
+	border: 1px solid #DCDCDC;
+	border-radius: 100%;
+	padding: 15px;
+}
+
+
+#section1_logos_et_textes .cercle
+{
+	position: absolute;
+	top: 50%;
+	transform: translate(50%, -50%);
+	right: 0px;
+
+}
+
+
+/*------------section 2------------*/
+
+#section2
+{
+	width: 100%;
+	padding-top: 1px;
+	background-color: #F5F5F5;
+}
+
+
+#container_liens
+{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0px;
+	margin-top: 1px;
+	position: relative;
+}
+
+
+.section2_bouton
+{
+	background-color: #DCDCDC;
+	width: 12%;
+	height: 40px;
+	text-align: center;
+}
+
+
+.section2_bouton a
+{
+	text-decoration: none;
+	color: black;
+	position: relative;
+	top: 10px;
+}
+
+
+.section2_bouton:hover, .section_bouton:active
+{
+	background-color: #5fadd3;
+	box-shadow: inset 0px -3px 0px #0c90ce;
+}
+
+
+.projet-lien-active
+{
+	background-color: #5fadd3;
+	box-shadow: inset 0px -3px 0px #0c90ce;
+	border-radius: 3px 0 0 3px;
+	position: relative;
+}
+
+
+.projet-lien-active a
+{
+	color: white;
+}
+
+
+.radius /*border-radius du bouton "Sites e-commerce" de la section 2*/
+{
+	border-radius: 0px 3px 3px 0px;	
+}
+
+
+.section2_bouton:hover 
+{
+	cursor: pointer;
+}
+
+
+.section2_bouton:hover a
+{
+	color: white;
+}
+
+
+.triangle 
+{
+	color: #0c90ce;
+	position: absolute;
+	left: 50%;
+	bottom: -45%;
+	transform: translateX(-50%);
+}
+
+
+/*images de la section 2*/
+
+#container_images
+{
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+
+.section2_image
+{
+	position: relative;
+	margin-right: 25px;
+	margin-bottom: 30px;
+}
+
+
+.image-description
+{
+	display: none;
+}	
+
+
+.section2_image:hover .image-description
+{
+	display: inline-block;
+	border-top: 1px solid black;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 85px;
+	position: absolute;
+	bottom: 2%;
+	left: 0%;
+	cursor: pointer;
+}
+
+
+.eye
+{
+	position: absolute;
+	right: 4%;
+	top: -27%;
+	border: 2px solid white;
+	border-radius: 100%;
+	padding: 12px;
+	background-color: #5fadd3;
+	color: white;
+}
+
+
+h4
+{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	color: white;
+	padding-left: 15px;
+	font-size: 18px; 
+	font-weight: bold;
+}
+
+
+h4+p
+{
+	margin-top: 5px;
+	color: white;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+
+/*------------FOOTER------------*/
+
+
+footer
+{
+	width: 100%;
+}
+
+
+.google_map
+{
+	margin-top: 40px;
+	position: relative;
+	z-index: 0;
+}
+
+
+.filtre_bleu_map /*fond bleu transparent déposé sur la google map*/
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: solid 1px rgb(79, 157, 231, 0.3);
+	width: 99%;
+	height: 700px;
+	z-index: 1;
+	background-color: rgba(79, 157, 231, 0.3);
+}
+
+
+footer .Adresse_et_formulaire
+{
+	position: absolute;
+	top: 50px;
+	right: 150px;
+	z-index: 2;
+	border: 1px solid #FDFEFE;
+	width: 28%;
+	height: 600px;
+	background-color: rgba(254, 254, 254, 0.6);
+	background: 0.5;
+	color: grey;
+}
+
+
+footer h3
+{
+	margin-left: 5%;
+}
+
+
+footer h3+p
+{
+	margin-left: 5%;
+}
+
+
+form
+{	
+	margin-left: 0%;
+	text-align: center;
+}
+
+
+.typo-en-gras
+{
+	font-weight: bold;
+}
+
+
+.tel
+{
+	text-decoration: dashed underline #C0C0C0;
+}
+
+
+input
+{	
+	width: 88%;
+	height: 20px;
+	padding: 5px 0px 5px 15px;
+	color: #C0C0C0;
+	font-weight: bold;
+	font-size: 14px;
+	border: 0px;
+	border-radius: 4px;
+}
+
+
+textarea 
+{
+	width: 88%;
+	height: 250px;
+	padding-left: 15px;
+	padding-top: 10px;
+	color: #C0C0C0;
+	font-size: 14px;
+	border: 0px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+
+.bouton-envoyer /*bouton formulaire*/
+{
+	position: absolute;
+	border-radius: 3px;
+	background-color: #5fadd3;
+	width: 25%;
+	height: 40px;
+	text-align: center;
+	box-shadow: inset 0px -3px 0px #0c90ce;
+	color: white;
+	cursor: pointer;
+	margin-left: 5%;
+}	
+
+
+/*-------------------- Nouvelles règles si la fenêtre fait au plus 1024px de large -------------------------------*/
+@media screen and (max-width: 1024px)
+{
+	html, body 
+	{
+		font-family: 'Roboto', sans-serif;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+
+
+	/*---------------HEADER------------------*/
+	.TEXTESLIDER
+	{
+		position: absolute;
+		top: 50%;
+    	left: 10%;
+    	transform: translateY(-50px);
+	}
+
+
+    .WEBAGENCY 
+	{
+		font-size: 30px;
+	}
+
+
+	.AGENCE_DE_TOUS 
+	{
+		font-size: 30px;
+	}
+
+
+	.VOS_PROJETS 
+	{
+		font-size: 30px;
+	}
+
+
+	/*------------SECTION 1-------------------*/
+
+	.section1_ordi_et_paragraphe
+	{
+		width: 100%; 
+	}
+
+
+	#image_ordi
+	{
+		display: inline-block;
+		vertical-align: middle;
+		width: 49%;	
+		text-align: center;
+		padding-right: 50px;
+	}
+
+
+	#section1_logos_et_textes
+	{
+		display: inline-block;
+		vertical-align: middle;
+		width: 40%;
+	}
+
+
+	/*-------------SECTION 2---------------*/
+
+	#container_liens
+	{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 0px;
+		position: relative;
+		font-size: 15px;
+	}
+
+
+	.section2_bouton
+	{
+		background-color: #DCDCDC;
+		width: 16%;
+		height: 40px;
+		text-align: center;
+	}
+
+
+	.projet-lien-active
+	{
+		background-color: #5fadd3;
+		box-shadow: inset 0px -3px 0px #0c90ce;
+		border-radius: 3px 0 0 3px;
+		position: relative;
+	}
+
+
+	.triangle 
+	{
+		color: #0c90ce;
+		position: absolute;
+		left: 50%;
+		bottom: -45%;
+		transform: translateX(-50%);
+	}
+
+
+	.image-description
+	{
+		display: inline-block;
+		border-top: 1px solid black;
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 85px;
+		position: absolute;
+		bottom: 2%;
+		left: 0%;
+	}	
+
+
+	/*--------------FOOTER----------------*/
+
+
+	footer .Adresse_et_formulaire
+	{
+		position: absolute;
+		top: 50px;
+		right: 75px;
+		z-index: 2;
+		border: 1px solid #FDFEFE;
+		width: 32%;
+		height: 600px;
+		background-color: rgba(254, 254, 254, 0.6);
+		background: 0.5;
+		color: grey;
+	}
+
+
+	footer h3
+	{
+		margin-left: 5%;
+	}
+
+
+	footer h3+p
+	{
+		margin-left: 5%;
+	}
+}
+
+
+/*-------------------- Nouvelles règles si la fenêtre fait au plus 850px de large -------------------------------*/
+@media screen and (max-width: 850px)
+{
+
+	html, body 
+	{
+		font-family: 'Roboto', sans-serif;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+
+
+	#section1 h2, .entete_section1, #section2 h2, .entete_section2
+	{
+		text-align: center;	
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	/*---------------HEADER------------------*/
+
+	.TEXTESLIDER
+	{
+		position: absolute;
+		top: 40%;
+    	left: 10%;
+    	transform: translateY(-50px);
+	}
+
+
+    .WEBAGENCY 
+	{
+		font-size: 20px;
+	}
+
+
+	.AGENCE_DE_TOUS 
+	{
+		font-size: 20px;
+	}
+
+
+	.VOS_PROJETS 
+	{
+		font-size: 20px;
+	}
+
+
+	.Vous_avez_un_projet p
+	{
+    	color: white;   
+    	width: 80%; 
+	}
+
+
+
+	.Plus_dinfos /*bouton slider*/
+	{
+    	position: relative;
+    	top: 10px;
+    	border-radius: 3px;
+    	background-color: #5fadd3;
+    	text-align: center;
+    	box-shadow: inset 0px -3px 0px #0c90ce;
+    	cursor: pointer;
+    	padding: 12px;
+    	width: 30%;
+	}    
+
+
+	/*------------------SECTION 1------------------------*/
+
+	.section1_ordi_et_paragraphe
+	{
+		width: 100%; 
+	}
+
+
+	#image_ordi
+	{
+		display: inline-block;
+		vertical-align: middle;
+		width: 100%;	
+		text-align: center;
+	}
+
+
+	#image_ordi img
+	{
+		width: 50%;
+	}
+
+
+	#section1_logos_et_textes
+	{
+		display: inline-block;
+		vertical-align: middle;
+		width: 100%;
+		text-align: center;
+	}
+
+
+	/*------------------SECTION 2------------------------*/
+
+	.section2_bouton
+	{
+		background-color: #DCDCDC;
+		width: 20%;
+		height: 40px;
+		text-align: center;
+	}
+
+
+	.projet-lien-active
+	{
+		background-color: #5fadd3;
+		box-shadow: inset 0px -3px 0px #0c90ce;
+		border-radius: 3px 0 0 3px;
+		position: relative;
+	}
+
+
+	.image-description
+	{
+		display: inline-block;
+		border-top: 1px solid black;
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 85px;
+		position: absolute;
+		bottom: 2%;
+		left: 0%;
+	}	
+
+
+/*-------------------------FOOTER------------------------*/
+
+	footer .Adresse_et_formulaire
+	{
+		position: absolute;
+		top: 50px;
+		right: 25px;
+		z-index: 2;
+		border: 1px solid #FDFEFE;
+		width: 37%;
+		height: 600px;
+		background-color: rgba(254, 254, 254, 0.6);
+		background: 0.5;
+		color: grey;
+	}
+
+
+	footer h3
+	{
+		margin-left: 5%;
+	}
+
+
+	footer h3+p
+	{
+		margin-left: 5%;
+	}
+}
+
+/* ---------------------Nouvelles règles si la fenêtre fait au plus 750px de large --------------------------------*/
+@media all and (max-width: 750px)
+{
+
+	html, body 
+	{
+		font-family: 'Roboto', sans-serif;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		overflow-x: hidden;
+	}
+
+
+	#section1 h2, .entete_section1, #section2 h2, .entete_section2
+	{
+		text-align: center;	
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	h2 /*Nos services - Nos projets*/
+	{
+		font-size: 35px;
+		font-weight: bold;
+		margin: 20px 10px 10px 10px;
+	}
+
+
+	#section1 h2
+	{
+		margin-top: 20px;
+	}
+
+
+	p
+	{
+		font-size: 16px;
+		text-align: justify;
+	}
+
+
+	/*--------------------HEADER-----------------*/
+    header
+    {
+    	width: 100%;	
+    }
+
+
+    .logo
+    {
+    	position: relative;
+    	margin-top: 1%;
+    	text-align: left;
+    	margin-left: 1%;
+    }
+
+
+    nav li
+    {
+    	display: none;
+    }
+
+
+    nav .menu-hamburger
+	{
+		display: inline;
+		position: relative;
+		top: 16px;
+	}
+
+
+	/*header : Titre et boutons */
+
+	.TEXTESLIDER
+	{
+		position: relative;
+		left: 0px;
+		top: 50px;
+		text-align: center;
+		height: 270px;
+	}
+
+
+     .WEBAGENCY
+	{
+		font-size: 50px;
+		position: relative;
+		margin-bottom: 0px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+
+
+	.AGENCE_DE_TOUS
+	{
+		position: relative;
+		font-size: 30px;
+		margin-top: 4px;
+		margin-bottom: 0px;
+		color: black;	
+	}
+
+
+	.ponctuation-titre
+	{
+		display: none;
+	}
+
+
+	.VOS_PROJETS
+	{
+		font-size: 30px;
+		position: relative;
+		margin-top: 0px;		
+		margin-bottom: 0px;	
+		color: black;
+	}
+
+
+	.Vous_avez_un_projet p
+	{
+    	color: black;   
+    	margin-left: auto;
+    	margin-right: auto;
+    	text-align: center;
+    	width: 90%;
+	}
+
+
+	.Plus_dinfos /*bouton slider*/
+	{	
+    	position: relative;
+    	top: 10px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 30%;
+    	border-radius: 3px;
+    	background-color: #5fadd3;
+    	text-align: center;
+    	box-shadow: inset 0px -3px 0px #0c90ce;
+    	cursor: pointer;
+    	padding: 15px;
+	}    
+
+
+	.border_noir_bottom_slider
+	{
+		position: absolute;
+		top: 0px;
+		left: 0;
+		width: 100%;
+		height: 5px;
+		background-color: rgba(40, 40, 40, 0.5);
+	}
+
+
+	.border_bleu_slider
+	{
+		position: absolute;
+		top: 0%;
+		left: 0;
+		width: 15%;
+		height: 5px;
+		background-color: #5fadd3;
+	}
+
+
+	.image-entete .fleche 
+	{
+		position: absolute;
+		top: 18%;
+		transform: translateY(-50%);
+		color: white;
+		width: 50px;
+		height: 50px;
+		border-radius: 50px;
+	}
+
+	/*-----------------------SECTION 1-------------------------*/
+
+	#section1
+	{
+		width: 100%;
+	}
+
+
+	.section1_ordi_et_paragraphe
+	{
+		width: 100%; 
+	}
+
+
+	#image_ordi
+	{
+		display: inline-block;
+		vertical-align: middle;
+		width: 100%;	
+		text-align: center;
+	}
+
+
+	#image_ordi img
+	{
+		width: 100%;
+	}
+
+
+	#section1_logos_et_textes
+	{
+		display: inline-block;
+		vertical-align: middle;
+		width: 100%;
+		text-align: center;
+	}
+
+
+	.texte
+	{
+		width: 100%;
+	}
+
+
+	.description-services
+	{
+		width: 90%;
+		text-align: center;
+		margin-left: 0px;
+	}
+
+
+	.icones-section1
+	{
+		position: relative;
+		border: 1px solid #DCDCDC;
+		border-radius: 100%;
+		padding: 15px;
+		margin: 10px;
+	}
+
+
+	/*----------------------SECTION 2-----------------------*/
+	#section2
+	{
+		width: 100%;
+		padding-top: 1px;
+		background-color: #F5F5F5;
+	}
+
+
+	#container_liens
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 0px;
+		position: relative;
+	}
+
+
+	.section2_bouton
+	{
+		background-color: #BDBDBD;
+		width: 100%;
+		height: 40px;
+		text-align: center;
+		cursor: pointer;
+	}
+
+
+	.section2_bouton:hover, .section_bouton:active
+	{
+		background-color: #5fadd3;
+		box-shadow: inset 0px -3px 0px #0c90ce;
+	}
+
+
+	.projet-lien-active
+	{
+		background-color: #5fadd3;
+		box-shadow: inset 0px -3px 0px #0c90ce;
+		border: 0px;
+		border-radius: 3px 3px 0px 0px;
+		position: relative;
+	}
+
+
+	.radius /*border-radius du bouton "Sites e-commerce" de la section 2*/
+	{
+		border-radius: 0px 0px 3px 3px;	
+	}
+
+
+	.triangle 
+	{
+		display: none;
+	}
+
+
+	.section2_image
+	{
+		position: relative;
+		left: 10px;
+		margin-bottom: 30px;
+	}
+
+
+	.image-description
+	{
+		display: inline-block;
+		border-top: 1px solid black;
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 85px;
+		position: absolute;
+		bottom: 2%;
+		left: 0%;
+	}	
+
+
+	h4+p
+	{
+		margin-top: 5px;
+		color: white;
+		padding-left: 15px;
+		padding-right: 10px;
+		font-size: 15px;
+	}
+
+
+	/*-----------------FOOTER-------------------*/
+	footer
+	{
+		width: 100%;
+	}
+
+
+	.google_map
+	{
+		margin-top: 40px;
+		position: relative;
+	}
+
+
+	iframe
+	{
+		display: none;
+	}
+
+
+	.filtre_bleu_map /*fond bleu transparent déposé sur la google map*/
+	{
+		display: none;
+	}
+
+
+	footer .Adresse_et_formulaire
+	{
+		position: relative;
+		top: 0px;
+		right: 0px;
+		left: 0px;
+		width: 90%;
+		height: 625px;
+		background-color: #F5F5F5;
+		margin-left: auto;
+		margin-right: auto;
+		color: grey;
+		text-align: center;
+	}
+
+
+	.Adresse_et_formulaire p
+	{
+		text-align: center;
+	}
+
+
+	.bouton-envoyer /*bouton formulaire*/
+	{
+		position: relative;
+		right: 0px;
+		left: 0px;
+		margin-right: auto;
+		margin-left: auto;
+		border-radius: 3px;
+		background-color: #5fadd3;
+		width: 30%;
+		height: 40px;
+		text-align: center;
+		box-shadow: inset 0px -3px 0px #0c90ce;
+		color: white;
+		cursor: pointer;
+	}	
+
+
+	.bouton-envoyer p
+	{
+		position: relative;
+		top: 10px;
+	}
+
+
+}
