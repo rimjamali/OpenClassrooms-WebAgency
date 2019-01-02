@@ -5,7 +5,7 @@ Project :
 http://webagency-rjamali.com/
 
 
-In english : 
+In English : 
 
 Web Design project : HTML5, CSS3 and Responsive Design (Media Queries).
 Integrated a one page design originally made with Photoshop (the links in the page are voluntarily not functional : The project only focuses on copying the Photoshop design).   
